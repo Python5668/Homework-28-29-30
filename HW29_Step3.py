@@ -34,7 +34,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(60, 130, 221, 131))
+        self.pushButton.setGeometry(QtCore.QRect(60, 130, 250, 131))
         font = QtGui.QFont()
         font.setFamily("Stencil Std")
         font.setPointSize(26)
