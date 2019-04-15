@@ -65,7 +65,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Message Box"))
-        self.pushButton.setText(_translate("MainWindow", "Click Me"))
+        self.pushButton.setText(_translate("MainWindow", "Toggle LED"))
         '''user code'''
         self.pushButton.clicked.connect(toggleLED)
         self.verticalSlider.valueChanged.connect(self.sliderMove)
